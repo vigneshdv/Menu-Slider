@@ -66,6 +66,9 @@ that is made from CSS & jQuery.
 ```
 - Voila, its done!
 
+#### Credits
+
++	[normalize.css](https://github.com/necolas/normalize.css/)
 
 If you are using this in your project or if you just want to say Hello, [mail me](mailto:jothivickyram@gmail.com)
 
