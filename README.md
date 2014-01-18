@@ -68,7 +68,8 @@ that is made from CSS & jQuery.
 
 
 If you are using this in your project or if you just want to say Hello, [mail me](mailto:jothivickyram@gmail.com)
-	
+
+Thanks!
 
 
 
