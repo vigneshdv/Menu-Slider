@@ -21,7 +21,7 @@ that is made from CSS & jQuery.
 		<link rel="stylesheet" href="css/menu-slider.css">
 	    <!-- jQuery -->
 	    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-	menu-button-pos</head>
+	</head>
 	<body>
 	    <!-- Place content of page here  -->
 	</body>
