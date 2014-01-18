@@ -1,0 +1,174 @@
+/* Version 0.1 17th January 2014 */
+
+/* 
+ * Menu-Slider is a light-weight off-canvas navigation menu 
+ * made of CSS & jQuery
+ */
+
+/* Created by Vignesh DV */
+ 
+html, body {
+	height: 100%;
+	overflow-x: hidden; /* prevents horizontal scroll bars */
+	-webkit-tap-highlight-color: rgba(0,0,0,0); /* disable webkit tap highlight */
+}
+
+@media screen {
+	.nav-canvas-wrap {
+		position:fixed;
+		width: 200px;
+		height: 100%;
+		top: 0;
+		left: -210px;
+		padding: 5px 0px;
+		margin: 0;
+		z-index:99;
+		background-color: rgba(33,36,37,1.0);
+		color: rgba(233,232,221,1.0);
+		font-size: 1em;
+		font-weight: 500;
+		box-shadow: 10px 0 10px -7px rgba(0,0,0,0.8);
+	}
+	.nav-canvas-wrap > h2 {
+		padding: 5px 0;
+		margin: 0;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size: 1.5em;
+		text-align: center;
+		overflow:hidden;
+	}
+	.nav-canvas-wrap ul {
+		margin: 0;
+		padding: 0;
+	}
+	.nav-canvas-wrap li {
+		list-style: none;
+	}
+	.nav-canvas-wrap a {
+		display: block;
+		padding: 20px 15px;
+		color: rgba(233,232,221,1.0);
+		text-decoration: none;
+		text-align: left;
+	}
+	.nav-canvas-wrap a:hover {
+		color: rgba(233,232,221,1.0);
+		background-color: rgba(9,10,10,1.0);
+		box-shadow: 0 0 0 2px rgba(0,0,0,0.7);
+	}
+	.nav-canvas-wrap h6 {
+		display: inline;
+		padding-left: 5px;
+		font-size: 1em;
+	}
+
+	.menu-button-pos {
+		position:fixed;
+		z-index: 1;
+		top: 3%;
+		left: 3%;
+	}
+	.menu-button {
+		color: rgba(44, 62, 80,1.0);
+		font-size: 2em;
+	}
+	.menu-button:hover {
+		cursor: pointer;
+		font-size: 2em;
+	}
+}
+
+/* For Large Screen Sizes*/
+ @media only screen and (min-width: 1025px) {
+	.menu-button-pos {
+		top: 3%;
+		left: 3%;	
+	}
+	.menu-button {
+		font-size: 2em;
+	}
+}
+ /* For Medium Screen Sizes */
+ @media only screen and (min-width: 641px) and (max-width: 1024px) {
+	.nav-canvas-wrap {
+		width: 175px;
+		padding: 3px 0px;
+		font-size: 0.9em;
+		font-weight: 500;
+		box-shadow: 8px 0 8px -6px rgba(0,0,0,0.8);
+	}
+
+	.nav-canvas-wrap > h2 {
+		padding: 3px 0;
+		font-size: 1.3em;
+	}
+
+	.nav-canvas-wrap a {
+		padding: 17px 12px;
+	}
+
+	.nav-canvas-wrap h6 {
+		padding-left: 3px;
+		font-size: 0.9em;
+	}
+
+	.menu-button-pos {
+		top: 3%;
+		left: 3%;
+	}
+	.menu-button {
+		font-size: 1.8em;
+	}
+
+	.menu-button:hover {
+		font-size: 1.8em;
+	}
+}
+
+/* For Small Screen Sizes*/
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+	.menu-button {
+		font-size: 1.65em;
+	}
+
+	.menu-button:hover {
+		font-size: 1.65em;
+	}
+}
+
+/* For Ultra Small Screen Sizes */
+@media only screen and (max-width: 480px) {
+	.nav-canvas-wrap {
+		width: 150px;
+		padding: 3px 0px;
+		font-size: 0.7em;
+		font-weight: 500;
+		box-shadow: 8px 0 8px -6px rgba(0,0,0,0.8);
+	}
+
+	.nav-canvas-wrap > h2 {
+		padding: 3px 0;
+		font-size: 1.2em;
+	}
+
+	.nav-canvas-wrap a {
+		padding: 13px 8px;
+	}
+
+	.nav-canvas-wrap h6 {
+		padding-left: 3px;
+		font-size: 0.9em;
+	}
+
+	.menu-button-pos {
+		top: 3%;
+		left:6%;
+	}
+	.menu-button {
+		font-size: 1.5em;
+	}
+
+	.menu-button:hover {
+		font-size: 1.5em;
+	}
+}
