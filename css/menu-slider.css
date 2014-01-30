@@ -6,11 +6,15 @@
  */
 
 /* Created by Vignesh DV */
+
+@import url("http://fonts.googleapis.com/css?family=Raleway:400,300,700");
  
 html, body {
 	height: 100%;
 	overflow-x: hidden; /* prevents horizontal scroll bars */
 	-webkit-tap-highlight-color: rgba(0,0,0,0); /* disable webkit tap highlight */
+	font-family: 'Raleway', sans-serif;
+	color: rgba(22, 160, 133,1.0);
 }
 
 @media screen {
@@ -24,7 +28,7 @@ html, body {
 		margin: 0;
 		z-index:99;
 		background-color: rgba(33,36,37,1.0);
-		color: rgba(233,232,221,1.0);
+		/*color: rgba(233,232,221,1.0);*/
 		font-size: 1em;
 		font-weight: 500;
 		box-shadow: 10px 0 10px -7px rgba(0,0,0,0.8);
@@ -32,7 +36,6 @@ html, body {
 	.nav-canvas-wrap > h2 {
 		padding: 5px 0;
 		margin: 0;
-		font-family:Georgia, "Times New Roman", Times, serif;
 		font-size: 1.5em;
 		text-align: center;
 		overflow:hidden;
@@ -47,12 +50,14 @@ html, body {
 	.nav-canvas-wrap a {
 		display: block;
 		padding: 20px 15px;
-		color: rgba(233,232,221,1.0);
+		/*color: rgba(233,232,221,1.0);*/
+		color: rgba(22, 160, 133,1.0); /*Green Sea*/
 		text-decoration: none;
-		text-align: left;
+		text-align: right;
 	}
 	.nav-canvas-wrap a:hover {
-		color: rgba(233,232,221,1.0);
+		/*color: rgba(233,232,221,1.0);*/
+		color: rgba(22, 160, 133,1.0);
 		background-color: rgba(9,10,10,1.0);
 		box-shadow: 0 0 0 2px rgba(0,0,0,0.7);
 	}
